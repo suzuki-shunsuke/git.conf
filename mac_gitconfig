@@ -1,0 +1,27 @@
+[color]
+	ui = auto
+[push]
+	default = matching
+[core]
+	editor = nvim
+	filemode = false
+[diff]
+	tool = nvimdiff
+[difftool "nvimdiff"]
+	cmd = "nvim -R -d -u ~/.config/nvim/init.vim \"$LOCAL\" \"$REMOTE\""
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+[user]
+	name = Suzuki Shunsuke
+[credential]
+	helper = osxkeychain
+[hub]
+	protocol = https
