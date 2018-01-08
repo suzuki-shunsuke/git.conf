@@ -1,0 +1,25 @@
+[color]
+	ui = auto
+[push]
+	default = matching
+[core]
+	editor = vim
+	filemode = false
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+[user]
+	name = Suzuki Shunsuke
+[credential]
+	helper = /usr/share/git/credential/gnome-keyring/git-credential-gnome-keyring
+[hub]
+	protocol = https
