@@ -1,7 +1,7 @@
 [color]
 	ui = auto
 [push]
-	default = matching
+	default = simple
 [core]
 	editor = nvim
 	filemode = false
@@ -20,8 +20,20 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 [user]
-	name = Suzuki Shunsuke
+	name = Shunsuke Suzuki
+	email = suzuki.shunsuke.1989@gmail.com
+	signingkey = 44D6F79F22FB53B7579C681A8C1396BBB3626865
 [credential]
 	helper = osxkeychain
 [hub]
 	protocol = https
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
