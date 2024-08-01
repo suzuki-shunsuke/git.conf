@@ -1,7 +1,5 @@
 # git.conf
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/suzuki-shunsuke/git.conf.svg)](https://github.com/suzuki-shunsuke/git.conf)
-
 ~/.gitconfig
 
 ```
@@ -25,3 +23,7 @@ $ cd /usr/share/git/credential/gnome-keyring
 $ make
 $ git config --global credential.helper /usr/share/git/credential/gnome-keyring/git-credential-gnome-keyring
 ```
+
+## LICENSE
+
+[MIT](LICENSE)
